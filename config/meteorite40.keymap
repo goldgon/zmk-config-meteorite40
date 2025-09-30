@@ -66,6 +66,15 @@
             key-positions = <17 19>; /* K + - (on layer 2) */
             layers = <2>;
         };
+
+        fopen {
+            bindings = <&kp LG(N2)>;
+            key-positions = <8 9>;
+            timeout-ms = <50>;
+        };
+
+
+
     };
 
     keymap {
