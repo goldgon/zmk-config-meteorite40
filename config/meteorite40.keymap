@@ -84,8 +84,8 @@
         win_default_layer {
             display-name = "BASE";
             bindings = <
-                &kp ESCAPE   &kp Q       &kp E        &kp U        &kp P                                 &kp D        &kp T       &kp R       &kp W  &mkp MB1
-                &mt LSHIFT A &kp S       &kp D        &kp F        &kp G                                 &kp H        &kp J       &kp K       &kp L  &kp MINUS
+                &kp ESCAPE      &kp Q       &kp E        &kp U        &kp P                                 &kp D        &kp T       &kp R       &kp W  &mkp MB1
+                &mt LSHIFT TAB  &kp O       &kp A        &kp I        &mt LCTRL F                           &mt RCTRL H  &kp Y       &kp K       &kp S  &mt LEFT_SHIFT B
                 &kp Z        &kp X       &kp C        &kp V        &kp B        &mkp MB1     &mkp MB2    &kp N        &kp M       &kp COMMA   &kp DOT  &lt 4 SLASH
                                     &kp LWIN  &mt LCTRL TAB  &mt LSHIFT SPACE  &lt 1 SPACE  &lt 2 ENTER  &lt 2 ENTER  &lt 3 BSPC  &kp RALT
             >;
