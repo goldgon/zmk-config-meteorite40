@@ -30,6 +30,13 @@
     combos {
         compatible = "zmk,combos";
 
+       bootloader {
+            bindings = <&bootloader>;
+            key-positions = <0 9 25 26>;
+            timeout-ms = <50>;
+
+        };
+
         lang1 {
             bindings = <&kp LANG1>;
             key-positions = <12 13>; /* D + F */
