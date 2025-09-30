@@ -102,10 +102,10 @@
         win_default_layer {
             display-name = "BASE";
             bindings = <
-                &kp ESCAPE          &kp Q        &kp E      &kp U         &kp P                                  &kp D        &kp T         &kp R       &kp W       &mkp MB1
-                &mt LSHIFT TAB      &kp O        &kp A      &kp I         &mt LCTRL F                            &mt RCTRL H  &kp Y         &kp K       &kp S       &mt LEFT_SHIFT B
-                &mt LCTRL PERIOD    &mt LGUI X   &mt LALT C &mt LSHIFT V  &kp L          &mkp MB1     &mkp MB2   &kp N        &mt RSHIFT M  &mt RALT G  &mt RGUI J  &mt RCTRL Z
-                                    &kp LWIN  &mt LCTRL TAB  &mt LSHIFT SPACE  &lt 1 SPACE  &lt 2 ENTER  &lt 2 ENTER  &lt 3 BSPC  &kp RALT
+                &kp ESCAPE          &kp Q        &kp E      &kp U         &kp P                                    &kp D        &kp T         &kp R       &kp W       &mkp MB1
+                &mt LSHIFT TAB      &kp O        &kp A      &kp I         &mt LCTRL F                              &mt RCTRL H  &kp Y         &kp K       &kp S       &mt LEFT_SHIFT B
+                &mt LCTRL PERIOD    &mt LGUI X   &mt LALT C &mt LSHIFT V  &kp L          &mkp MB1     &mkp MB2     &kp N        &mt RSHIFT M  &mt RALT G  &mt RGUI J  &mt RCTRL Z
+                &kp LWIN     &mt LCTRL TAB                                &mo 1          &lt 1 SPACE  &lt 2 ENTER  &mo2         &lt 3 BSPC    &kp RALT
             >;
 
             sensor-bindings =
