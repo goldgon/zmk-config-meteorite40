@@ -4,7 +4,7 @@
 #include <input/processors.dtsi>
 
 #define DEFAULT_CPI 500        // トラックボールの感度_20250930-1000→500
-#define ROTATION_ANGLE 0       // トラックボールのY軸を回転_20250930-30→0
+#define ROTATION_ANGLE -30       // トラックボールのY軸を回転_20250930-30→0→-30
 #define CLIPPER_THRESHOLD 40    // スクロール時に斜めの値をクリップ
 #define INVERT_X 1              // X軸のスクロールの反転
 #define INVERT_Y 1              // Y軸のスクロールの反転_20250930_0→1
