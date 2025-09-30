@@ -2,6 +2,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include "keycode_japanese.h"
+
 
 // ブートローダーを導入する
 // &bootloader
@@ -117,7 +119,7 @@
             display-name = "SYMBOLS";
             bindings = <
                 &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT                       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-                &kp COMMA  &kp JP_SEMI &kp JP_AT  &none  &kp MINUS               &kp BACKSPACE &kp ENTER     &kp UP        &kp DQT       &kp EQUAL
+                &kp COMMA  &kp JP_SEMI &kp JP_AT  &kp RS(MINUS)  &kp MINUS               &kp BACKSPACE &kp ENTER     &kp UP        &kp DQT       &kp EQUAL
                 &none      &none     &none     &none     &none      &mkp MB4  &mkp MB5   &kp DELETE      &kp LEFT  &kp DOWN   &kp RIGHT   &kp PLUS
                                      &trans     &trans    &trans    &trans    &trans     &kp GRAVE       &kp DEL   &trans
             >;
