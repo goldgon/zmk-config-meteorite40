@@ -32,11 +32,7 @@
     combos {
         compatible = "zmk,combos";
 
-       sleep {
-            bindings = <&sys suspend>;
-            key-positions = <0 9 34 37>;
-            timeout-ms = <50>;
-        };
+
 
 
        m5_L {
