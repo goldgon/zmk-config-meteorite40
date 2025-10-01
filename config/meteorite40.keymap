@@ -32,6 +32,12 @@
     combos {
         compatible = "zmk,combos";
 
+       sleep {
+            bindings = <&sys suspend>;
+            key-positions = <0 9 34 37>;
+            timeout-ms = <50>;
+        };
+
 
        m5_L {
             bindings = <&mo 5>;
@@ -50,7 +56,6 @@
             bindings = <&bootloader>;
             key-positions = <0 9 25 26>;
             timeout-ms = <50>;
-
         };
 
         lang1 {
