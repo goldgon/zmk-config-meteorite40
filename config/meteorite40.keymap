@@ -30,7 +30,22 @@
 
 / { 
     combos {
-        compatible = "zmk,combos";
+        compatible = "zmk,combos"
+　　	timeout-ms = <50>;
+
+
+       m5 {
+            bindings = <&mo 5>;
+            key-positions = <11 12>;
+
+        };	
+
+       m5 {
+            bindings = <&mo 5>;
+            key-positions = <17 18>;
+
+        };
+
 
        bootloader {
             bindings = <&bootloader>;
