@@ -33,13 +33,13 @@
         compatible = "zmk,combos";
 
 
-       m5 {
+       m5_L {
             bindings = <&mo 5>;
             key-positions = <11 12>;
 
         };	
 
-       m5 {
+       m5_R {
             bindings = <&mo 5>;
             key-positions = <17 18>;
 
