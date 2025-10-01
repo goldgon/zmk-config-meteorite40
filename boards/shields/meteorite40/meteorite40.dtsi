@@ -3,8 +3,8 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
 
-#define DEFAULT_CPI 500        // トラックボールの感度_20250930-1000→500
-#define ROTATION_ANGLE 340       // トラックボールのY軸を回転_20250930-30→0→-30→330→340
+#define DEFAULT_CPI 400        // トラックボールの感度_20250930-1000→500→20251001-400
+#define ROTATION_ANGLE 350       // トラックボールのY軸を回転_20250930-30→0→-30→330→340→20251001-350
 #define CLIPPER_THRESHOLD 40    // スクロール時に斜めの値をクリップ
 #define INVERT_X 1              // X軸のスクロールの反転
 #define INVERT_Y 1              // Y軸のスクロールの反転_20250930_0→1
