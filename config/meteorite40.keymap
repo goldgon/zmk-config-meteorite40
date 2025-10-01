@@ -132,9 +132,9 @@
         layer_1 {
             display-name = "SYMBOLS";
             bindings = <
-                &kp 0x38  &kp AT_SIGN    &kp HASH   &kp DOLLAR   &kp PERCENT                       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-                &kp COMMA  &kp JP_SEMI &kp JP_AT  &kp RS(MINUS)  &kp MINUS               &kp BACKSPACE &kp ENTER     &kp UP        &kp DQT       &kp EQUAL
-                &none      &none     &none     &none     &none      &mkp MB4  &mkp MB5   &kp DELETE      &kp LEFT  &kp DOWN   &kp RIGHT   &kp PLUS
+                &kp N1  &kp N2    &kp N3   &kp N4   &kp N5                       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+               &kp JP_LT  &kp JP_LBKT  &kp LS(0x25)  &kp SPACE  &kp MINUS                             &kp BACKSPACE &kp ENTER     &kp JP_RPAR  &kp JP_RBKT  &kp JP_RT
+                &kp END     &kp PAGE_DOWN &kp DOWN     &kp LEFT   &none      &mkp MB4  &mkp MB5         &kp DELETE     &kp RIGHT    &kp UP_ARROW &kp PAGE_UP  &kp HOME 
                                      &trans     &trans    &trans    &trans    &trans     &kp GRAVE       &kp DEL   &trans
             >;
 
