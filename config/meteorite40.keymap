@@ -30,7 +30,7 @@
 
 / { 
     combos {
-        compatible = "zmk,combos"
+        compatible = "zmk,combos";
 　　	timeout-ms = <50>;
 
 
