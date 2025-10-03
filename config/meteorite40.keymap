@@ -32,8 +32,11 @@
     combos {
         compatible = "zmk,combos";
 
+       m4_L {
+            bindings = <&mo 4>;
+            key-positions = <12 13>;
 
-
+        };	
 
        m5_L {
             bindings = <&mo 5>;
