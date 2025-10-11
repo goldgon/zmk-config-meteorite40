@@ -137,7 +137,7 @@
             display-name = "SYMBOLS";
             bindings = <
                 &kp N1  &kp N2    &kp N3   &kp N4   &kp N5                       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-               &kp JP_LT  &kp JP_LBKT  &kp LS(0x25)  &kp SPACE  &kp MINUS                             &kp BACKSPACE &kp ENTER     &kp JP_RPAR  &kp JP_RBKT  &kp JP_RT
+               &kp JP_LT  &kp JP_LBKT  &kp LS(0x25)  &kp SPACE  &kp MINUS                               &kp BACKSPACE &kp ENTER     &kp JP_RPAR  &kp JP_RBKT  &kp JP_RT
                 &kp END     &kp PAGE_DOWN &kp DOWN     &kp LEFT   &none      &mkp MB4  &mkp MB5         &kp DELETE     &kp RIGHT    &kp UP_ARROW &kp PAGE_UP  &kp HOME 
                                      &trans     &trans    &trans    &trans    &trans     &kp GRAVE       &kp DEL   &trans
             >;
@@ -151,8 +151,8 @@
         layer_2 {
             display-name = "NUM / ARROW";
             bindings = <
-                &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4     &kp NUMBER_5      &kp CARET           &kp LS(SEMI)  &kp ASTERISK       &kp SLASH     &mkp MB2
-                &kp SLASH        &kp N4     &kp N5     &kp SPACE  &kp MINUS                      &kp LS(SLASH)       &kp EQUAL     &kp DOUBLE_QUOTES  &kp LS(0x87)  &kp LS(0x1e)
+                 &kp 0x38  &kp AT_SIGN    &kp HASH   &kp DOLLAR     &kp PERCENT    &kp CARET           &kp LS(SEMI)  &kp ASTERISK       &kp SLASH     &mkp MB2
+                &kp SLASH        &kp N4     &kp N5     &kp RS(MINUS)  &kp MINUS                      &kp LS(SLASH)       &kp EQUAL     &kp DOUBLE_QUOTES  &kp LS(0x87)  &kp LS(0x1e)
                 &kp N0           &kp N1     &kp N2     &kp N3     &kp DOT   &mkp MB4   &mkp MB5   &none         &kp LG(LEFT)  &kp LG(UP)    &kp LG(DOWN) &kp LG(RIGHT)
                                         &trans           &trans     &mo 3     &trans    &trans        &trans  &trans    &trans
             >;
