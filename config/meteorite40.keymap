@@ -8,6 +8,8 @@
 // ブートローダーを導入する
 // &bootloader
 
+//hold-preferでtappping-term-msをかなり長くするのは？
+
 &mt { 
     flavor = "tap-preferred"; // change hold to tap
     tapping-term-ms = <165>;
