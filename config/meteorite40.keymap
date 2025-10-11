@@ -11,9 +11,11 @@
 //hold-preferでtappping-term-msをかなり長くするのは？
 
 &mt { 
-    flavor = "tap-preferred"; // change hold to tap
+    flavor = "balanced"; // change hold to tap
     tapping-term-ms = <1000>;
     quick-tap-ms = <150>; // change 200 to 150
+    require-prior-idle-ms = <125>;
+
 };
 
 &lt {
