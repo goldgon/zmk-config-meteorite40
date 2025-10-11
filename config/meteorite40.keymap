@@ -10,6 +10,9 @@
 
 //hold-preferでtappping-term-msをかなり長くするのは？
 
+//&kp LC(RG(LEFT))        &kp LG(RC(RIGHT))
+
+
 &mt { 
     flavor = "balanced"; // change hold to tap
     tapping-term-ms = <165>;
