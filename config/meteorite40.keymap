@@ -11,8 +11,8 @@
 //hold-preferでtappping-term-msをかなり長くするのは？
 
 &mt { 
-    flavor = "tap-preferred"; // change hold to tap
-    tapping-term-ms = <165>;
+    flavor = "hold-preferred"; // change hold to tap
+    tapping-term-ms = <1000>;
     quick-tap-ms = <150>; // change 200 to 150
 };
 
