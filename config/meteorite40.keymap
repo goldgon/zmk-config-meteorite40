@@ -8,15 +8,13 @@
 // ブートローダーを導入する
 // &bootloader
 
-//hold-preferでtappping-term-msをかなり長くするのは？
-
 //&kp LC(RG(LEFT))        &kp LG(RC(RIGHT))
 
 
 &mt { 
-    flavor = "balanced"; // change hold to tap
+    flavor = "balanced"; 
     tapping-term-ms = <165>;
-    quick-tap-ms = <150>; // change 200 to 150
+    quick-tap-ms = <150>; 
     require-prior-idle-ms = <125>;
 };
 
