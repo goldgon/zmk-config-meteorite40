@@ -12,16 +12,16 @@
 
 &mt { 
     flavor = "balanced"; // change hold to tap
-    tapping-term-ms = <1000>;
+    tapping-term-ms = <165>;
     quick-tap-ms = <150>; // change 200 to 150
     require-prior-idle-ms = <125>;
-
 };
 
 &lt {
     flavor = "tap-preferred";
     tapping-term-ms = <150>; // change 200 to 150
     quick-tap-ms = <150>; // change 200 to 150
+    require-prior-idle-ms = <125>;
 };
 
     // 複数キーの同時押しに特別の入力を設定できる
