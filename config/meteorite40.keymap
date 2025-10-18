@@ -133,7 +133,7 @@
             display-name = "BASE";
             bindings = <
                 &kp ESCAPE          &kp Q        &kp E      &kp U         &kp P                                    &kp D        &kp T         &kp R       &kp W       &mkp MB1
-                &mt LSHIFT TAB      &lt 5 O        &lt 4 A      &kp I         &mt LCTRL F                              &mt RCTRL H  &kp Y         &kp K       &lt 5 S       &mt LEFT_SHIFT B
+                &mt LSHIFT TAB      &lt 5 O        &lt 4 A      &kp I         &mt LCTRL F                              &mt RCTRL H  &kp Y         &lt 4 K       &lt 5 S       &mt LEFT_SHIFT B
                 &mt LCTRL PERIOD    &mt LGUI X   &mt LALT C &mt LSHIFT V  &kp L         &kp LC(RG(LEFT))        &kp LG(RC(RIGHT))     &kp N        &mt RSHIFT M  &mt RALT G  &mt RGUI J  &mt RCTRL Z
                                                  &mo 2   &mo 2 &mo 1          &mo 2        &mo 2        &mo 2         &mo 2    &mo 2
             >;
@@ -192,7 +192,7 @@
             display-name = "SETTING";
             bindings = <
                 &none  &none   &none   &none   &none                                       &none          &kp UP     &none              &none        &mkp MB3
-                &none        &none   &none   &kp MINUS   &kp MINUS                                 &kp BACKSPACE  &kp SPACE  &kp ENTER         &none         &none
+                &none        &none   &none   &kp GRAVE   &kp MINUS                                 &kp BACKSPACE  &kp SPACE  &kp ENTER         &none         &none
                 &none        &none   &none   &none   &none   &none           &none         &kp DELETE          &none           &none         &none         &none
                                                 &trans       &trans  &trans  &trans  &trans  &trans          &trans        &trans
             >;
