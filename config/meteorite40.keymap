@@ -37,6 +37,30 @@
     combos {
         compatible = "zmk,combos";
 
+        bt_clr_all {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <0 10 20>;
+            layers = <0>;
+        };
+
+        bt0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <5 15 27>;
+            layers = <0>;
+        };
+
+        bt1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <6 16 28>;
+            layers = <0>;
+        };
+
+
+
+
+
+
+
        m4_L {
             bindings = <&mo 4>;
             key-positions = <12 13>;
