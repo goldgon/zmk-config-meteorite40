@@ -8,6 +8,8 @@
 // ブートローダーを導入する
 // &bootloader
 
+//@
+
 //&kp LC(RG(LEFT))        &kp LG(RC(RIGHT))
 
 
