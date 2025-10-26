@@ -40,6 +40,13 @@
     combos {
         compatible = "zmk,combos";
 
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <14 15>;
+            layers = <0>;
+        };
+
+
         bt_clr_all {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <0 10 20>;
