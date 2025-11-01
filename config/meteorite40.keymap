@@ -13,6 +13,8 @@
 //:
 //\￥
 //mtの調整が必要かも_gyoやsyoで引っかかることが多い
+//→mtをbalancedからtap-preferredに
+//mt・ltともにrequire-prior-idle-msを無効にしてみる
 
 //&kp LC(RG(LEFT))        &kp LG(RC(RIGHT))
 
