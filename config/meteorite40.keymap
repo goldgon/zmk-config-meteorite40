@@ -18,6 +18,7 @@
 
 //&kp LC(RG(LEFT))        &kp LG(RC(RIGHT))
 
+//スクロールレイヤーの対象レイヤーを増やしたい
 
 &mt { 
     flavor = "tap-preferred"; 
