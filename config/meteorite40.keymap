@@ -14,17 +14,26 @@
 //\￥
 //mtの調整が必要かも_gyoやsyoで引っかかることが多い
 //→mtをbalancedからtap-preferredに
+//term200だとひっかかる→balancedでterm200を試す
 //mt・ltともにrequire-prior-idle-msを無効にしてみる
 
 //&kp LC(RG(LEFT))        &kp LG(RC(RIGHT))
 
 //スクロールレイヤーの対象レイヤーを増やしたい
 
+//&mt { 
+//    flavor = "tap-preferred"; 
+//    tapping-term-ms = <200>;
+//    quick-tap-ms = <150>; 
+//};
+
+
 &mt { 
-    flavor = "tap-preferred"; 
+    flavor = "balanced"; 
     tapping-term-ms = <200>;
     quick-tap-ms = <150>; 
 };
+
 
 // &mt { 
 //    flavor = "balanced"; 
