@@ -16,6 +16,7 @@
 //→mtをbalancedからtap-preferredに
 //term200だとひっかかる→balancedでterm200を試す
 //mt・ltともにrequire-prior-idle-msを無効にしてみる
+//スペースと半角全角とEnterを交換してみる
 
 //&kp LC(RG(LEFT))        &kp LG(RC(RIGHT))
 
@@ -247,7 +248,7 @@
             display-name = "SETTING";
             bindings = <
                 &none  &none   &none   &none   &none                                                           &none          &kp UP     &none              &none        &mkp MB3
-                &none        &kp LS(0x25)   &kp GRAVE   &kp JP_RPAR   &kp MINUS                                 &kp BACKSPACE  &kp SPACE  &kp ENTER         &kp LS(0x87)  &kp LS(0x1e)
+                &none        &kp LS(0x25)   &kp ENTER   &kp JP_RPAR   &kp MINUS                                 &kp BACKSPACE  &kp GRAVE  &kp SPACE         &kp LS(0x87)  &kp LS(0x1e)
                 &none        &none   &none   &none   &none                       &none           &none         &kp DELETE          &none           &none         &none         &none
                                                 &trans       &trans  &trans  &trans  &trans  &trans          &trans        &trans
             >;
