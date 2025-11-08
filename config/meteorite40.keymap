@@ -5,43 +5,20 @@
 #include "keycode_japanese.h"
 
 
-// ブートローダーを導入する
-// &bootloader
 
 //@
 //#
 //:
 //\￥
-//mtの調整が必要かも_gyoやsyoで引っかかることが多い
-//→mtをbalancedからtap-preferredに
-//term200だとひっかかる→balancedでterm200を試す
-//mt・ltともにrequire-prior-idle-msを無効にしてみる
-//スペースと半角全角とEnterを交換してみる
-
 //&kp LC(RG(LEFT))        &kp LG(RC(RIGHT))
 
 //スクロールレイヤーの対象レイヤーを増やしたい
-
-//&mt { 
-//    flavor = "tap-preferred"; 
-//    tapping-term-ms = <200>;
-//    quick-tap-ms = <150>; 
-//};
-
 
 &mt { 
     flavor = "balanced"; 
     tapping-term-ms = <200>;
     quick-tap-ms = <150>; 
 };
-
-
-// &mt { 
-//    flavor = "balanced"; 
-//    tapping-term-ms = <165>;
-//    quick-tap-ms = <150>; 
-//    require-prior-idle-ms = <125>;
-//};
 
 &lt {
     flavor = "balanced";
