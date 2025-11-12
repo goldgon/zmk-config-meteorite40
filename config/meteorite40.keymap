@@ -11,8 +11,7 @@
 //:
 //\￥
 //&kp LC(RG(LEFT))        &kp LG(RC(RIGHT))
-
-//スクロールレイヤーの対象レイヤーを増やしたい
+ｓ
 
 &mt { 
     flavor = "balanced"; 
@@ -251,7 +250,7 @@
             display-name = "tenkey-arrow";
             bindings = <
                 &none        &none      &kp UP     &none       &none                                 &none          &kp UP          &kp N8        &kp N9         &mkp MB3
-                &none        &kp LEFT   &kp GRAVE  &kp GRAVE   &kp MINUS                                 &kp BACKSPACE  &kp SPACE       &kp N5        &kp ENTER         &kp ENTER
+                &none        &kp LEFT   &kp GRAVE  &kp GRAVE   &kp MINUS                             &kp BACKSPACE  &kp SPACE       &kp TAB       &kp ENTER      &kp ENTER
                 &none        &none      &none      &none       &none   &none           &none         &kp DELETE     &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD
                                                 &trans       &trans  &trans  &trans  &trans  &trans          &trans        &trans
             >;
