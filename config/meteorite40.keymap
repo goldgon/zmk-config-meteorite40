@@ -233,7 +233,7 @@
             display-name = "tenkey-arrow";
             bindings = <
                 &none        &kp HOME   &kp UP     &kp PAGE_UP      &none                                 &none          &kp N7          &kp N8        &kp N9         &mkp MB3
-                &none        &kp LEFT   &kp DOWN   &kp RIGHT        &none                                 &kp BACKSPACE  &kp N4          &kp N5        &kp N6         &kp ENTER
+                &none        &kp LEFT   &kp DOWN   &kp RIGHT        &none                                 &kp BACKSPACE  &kp N4          &mt RGUI N5        &kp N6         &kp ENTER
                 &none        &kp END    &none      &kp PAGE_DOWN    &none   &none           &none         &kp N0         &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD
                                                 &trans       &trans  &trans  &trans  &trans  &trans          &trans        &trans
             >;
