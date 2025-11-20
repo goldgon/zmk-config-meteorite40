@@ -217,7 +217,7 @@
         layer_4 {
             display-name = "SETTING";
             bindings = <
-                &none  &none   &none   &none   &none                                                           &none          &kp UP     &none              &none        &mkp MB3
+                &none  &none   　　　　　　　&kp RS(MINUS)   &none   &none                                                           &none          &kp UP     &none              &none        &mkp MB3
                 &none        &kp LS(0x25)   &kp JP_AT    &kp JP_RPAR   &kp MINUS                                 &kp BACKSPACE  &kp ENTER  &kp DOUBLE_QUOTES &kp LS(0x87)  &kp LS(0x1e)
                 &none        &none   &none   &none   &none                       &none           &none         &kp DELETE          &none           &none         &none         &none
                                                 &trans       &trans  &trans  &trans  &trans  &trans          &trans        &trans
