@@ -96,6 +96,12 @@
             timeout-ms = <50>;
         };
 
+       bootloader2 {
+            bindings = <&bootloader>;
+            key-positions = <0 9 32 39>;
+            timeout-ms = <200>;
+        };
+
         lang1 {
             bindings = <&kp LANG1>;
             key-positions = <12 13>; /* D + F */
