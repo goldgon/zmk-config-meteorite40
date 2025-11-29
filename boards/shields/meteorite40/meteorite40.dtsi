@@ -134,13 +134,13 @@
                                <&to_wheel>;
         };
 
-    layer_keys {
-        layers = <7>;
-        sensor-bindings = <
-            &inc_dec_kp RIGHT_ARROW LEFT_ARROW
-            &inc_dec_kp UP_ARROW DOWN_ARROW
-        >;
-    };
+    // layer_keys {
+    //    layers = <7>;
+    //    sensor-bindings = <
+    //       &inc_dec_kp RIGHT_ARROW LEFT_ARROW
+    //        &inc_dec_kp UP_ARROW DOWN_ARROW
+    //    >;
+    //    };
 
     };
 };
