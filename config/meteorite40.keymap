@@ -5,11 +5,18 @@
 #include "keycode_japanese.h"
 
 
+&msc {
+    acceleration-exponent = <1>;      // 0
+    time-to-max-speed-ms = <40>;       // 300
+    delay-ms = <16>;                   // 0
+};
 
-//@
-//#
-//:
-//\￥
+&mmv {
+    time-to-max-speed-ms = <500>;
+    acceleration-exponent = <1>;
+    trigger-period-ms = <16>;
+};
+
 //&kp LC(RG(LEFT))        &kp LG(RC(RIGHT))
 
 
