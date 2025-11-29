@@ -14,7 +14,7 @@
 };
 
 &mmv {
-    time-to-max-speed-ms = <2000>;
+    time-to-max-speed-ms = <100>;
     acceleration-exponent = <2>;
     trigger-period-ms = <16>;
     delay-ms = <0>;
@@ -154,8 +154,8 @@
 
         fopen {
             bindings = <&kp LG(N2)>;
-            key-positions = <8 9>;
-            timeout-ms = <50>;
+            key-positions = <7 9>;
+            timeout-ms = <200>;
         };
 
         space {
