@@ -4,15 +4,17 @@
 #include <dt-bindings/zmk/pointing.h>
 #include "keycode_japanese.h"
 
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 2300 // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 40    // default: 10
 
 &msc {
-    acceleration-exponent = <1>;      // 0
+    acceleration-exponent = <0>;      // 0
     time-to-max-speed-ms = <0>;       // 300
     delay-ms = <0>;                   // 0
 };
 
 &mmv {
-    time-to-max-speed-ms = <0>;
+    time-to-max-speed-ms = <2000>;
     acceleration-exponent = <2>;
     trigger-period-ms = <16>;
     delay-ms = <0>;
