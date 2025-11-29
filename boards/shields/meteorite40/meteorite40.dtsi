@@ -134,12 +134,11 @@
                                <&to_wheel>;
         };
 
-    // レイヤー限定でキー入力
     layer_keys {
-        layers = <7>;   // このレイヤーでのみ有効
+        layers = <7>;
         sensor-bindings = <
-            &inc_dec_kp RIGHT_ARROW LEFT_ARROW   // X軸
-            &inc_dec_kp UP_ARROW DOWN_ARROW      // Y軸
+            &inc_dec_kp RIGHT_ARROW LEFT_ARROW
+            &inc_dec_kp UP_ARROW DOWN_ARROW
         >;
     };
 
