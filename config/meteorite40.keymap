@@ -282,7 +282,7 @@
         layer_7 {
             display-name = "tenkey-arrow";
             bindings = <
-                &mmv MOVE_Y(1000)  &msc SCRL_RIGHT  &mmv MOVE_UP     &msc SCRL_UP  &mmv MOVE_Y(-100)                                 &kp TAB          &kp UP          &lt 8        &kp N9         &mkp MB3
+                &mmv MOVE_Y(1000)  &msc SCRL_RIGHT  &mmv MOVE_UP     &msc SCRL_UP  &mmv MOVE_Y(-100)                                 &kp TAB          &kp UP          &mo 8        &kp N9         &mkp MB3
                 &none   &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &none                             &kp BACKSPACE  &kp SPACE       &kp TAB       &kp ENTER      &kp COMMA 
                 &trans  &msc SCRL_LEFT   &trans           &msc SCRL_DOWN  &trans   &none           &none         &kp DELETE     &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD
                                                 &trans       &trans  &trans  &trans  &trans  &trans          &trans        &trans
@@ -301,7 +301,7 @@
         layer_8 {
             display-name = "tenkey-arrow";
             bindings = <
-                &mmv MOVE_Y(1000)  &msc SCRL_RIGHT   &mmv MOVE_Y(-300)     &msc SCRL_UP  &mmv MOVE_Y(-100)                                 &kp TAB          &kp UP          &lt 8        &lt 7         &mkp MB3
+                &mmv MOVE_Y(1000)  &msc SCRL_RIGHT   &mmv MOVE_Y(-300)     &msc SCRL_UP  &mmv MOVE_Y(-100)                                 &kp TAB          &kp UP          &mo 8 &mo 7 &mkp MB3
                 &none              &mmv MOVE_X(-300) &mmv MOVE_Y(300)    &mmv MOVE_X(300)   &none                             &kp BACKSPACE  &kp SPACE       &kp TAB       &kp ENTER      &kp COMMA 
                 &trans  &msc SCRL_LEFT   &trans           &msc SCRL_DOWN  &trans   &none           &none         &kp DELETE     &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD
                                                 &trans       &trans  &trans  &trans  &trans  &trans          &trans        &trans
