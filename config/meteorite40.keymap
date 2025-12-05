@@ -13,12 +13,12 @@
     delay-ms = <0>;                   // 0
 };
 
-&mmv {
-    time-to-max-speed-ms = <200>;
-    acceleration-exponent = <1>;
-    trigger-period-ms = <10>;
-    delay-ms = <0>;
-};
+// &mmv {
+//    time-to-max-speed-ms = <200>;
+//    acceleration-exponent = <1>;
+//    trigger-period-ms = <10>;
+//    delay-ms = <0>;
+//};
 
 //&kp LC(RG(LEFT))        &kp LG(RC(RIGHT))
 
@@ -174,7 +174,7 @@
         win_default_layer {
             display-name = "BASE";
             bindings = <
-                &kp ESCAPE          &kp Q        &kp E      &kp U         &kp P                                    &kp D        &kp T         &lt 8 R       &lt 7 W       &mkp MB1
+                &kp ESCAPE          &kp Q        &kp E      &kp U         &kp P                                    &kp D        &lt 9 T         &lt 8 R       &lt 7 W       &mkp MB1
                 &mt LSHIFT TAB      &lt 5 O        &lt 4 A      &lt 6 I         &mt LCTRL F                              &mt RCTRL H  &lt 6 Y         &lt 4 K       &lt 5 S       &mt LEFT_SHIFT B
                 &lt 3 MINUS    &mt LGUI X   &mt LALT C &mt LSHIFT V  &mt LCTRL L         &kp LC(RG(LEFT))        &kp LG(RC(RIGHT))     &mt RCTRL N        &mt RSHIFT M  &mt RALT G  &mt RGUI J  &lt 3 Z
                                                  &kp LG(PSCRN)  &mo 2 &mo 1          &mo 2        &mo 2        &mo 2         &mo 2    &mo 2
@@ -301,8 +301,25 @@
         layer_8 {
             display-name = "tenkey-arrow";
             bindings = <
-                &mmv MOVE_Y(1000)  &msc SCRL_RIGHT   &mmv MOVE_Y(200)     &msc SCRL_UP  &mmv MOVE_Y(-100)                                 &kp TAB          &kp UP          &kp N8        &kp N9         &mkp MB3
-                &none              &mmv MOVE_X(-200) &mmv MOVE_Y(-200)    &mmv MOVE_X(200)   &none                             &kp BACKSPACE  &kp SPACE       &kp TAB       &kp ENTER      &kp COMMA 
+                &mmv MOVE_Y(1000)  &msc SCRL_RIGHT   &mmv MOVE_Y(-300)     &msc SCRL_UP  &mmv MOVE_Y(-100)                                 &kp TAB          &kp UP          &kp N8        &kp N9         &mkp MB3
+                &none              &mmv MOVE_X(-300) &mmv MOVE_Y(300)    &mmv MOVE_X(300)   &none                             &kp BACKSPACE  &kp SPACE       &kp TAB       &kp ENTER      &kp COMMA 
+                &trans  &msc SCRL_LEFT   &trans           &msc SCRL_DOWN  &trans   &none           &none         &kp DELETE     &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD
+                                                &trans       &trans  &trans  &trans  &trans  &trans          &trans        &trans
+            >;
+
+            sensor-bindings =
+                <&inc_dec_kp LC(MINUS) LC(EQUAL)>, // RE0: ctrl + - / +,,,
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>; // RE1: volume down/up
+
+
+
+        };
+
+ layer_9 {
+            display-name = "tenkey-arrow";
+            bindings = <
+                &mmv MOVE_Y(1000)  &msc SCRL_RIGHT   &mmv MOVE_Y(-2000)     &msc SCRL_UP  &mmv MOVE_Y(-100)                                 &kp TAB          &kp UP          &kp N8        &kp N9         &mkp MB3
+                &none              &mmv MOVE_X(-2000) &mmv MOVE_Y(2000)    &mmv MOVE_X(2000)   &none                             &kp BACKSPACE  &kp SPACE       &kp TAB       &kp ENTER      &kp COMMA 
                 &trans  &msc SCRL_LEFT   &trans           &msc SCRL_DOWN  &trans   &none           &none         &kp DELETE     &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD
                                                 &trans       &trans  &trans  &trans  &trans  &trans          &trans        &trans
             >;
