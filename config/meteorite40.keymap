@@ -13,12 +13,12 @@
     delay-ms = <0>;                   // 0
 };
 
-// &mmv {
-//    time-to-max-speed-ms = <200>;
-//    acceleration-exponent = <1>;
-//    trigger-period-ms = <10>;
-//    delay-ms = <0>;
-//};
+&mmv {
+    time-to-max-speed-ms = <0>;
+    acceleration-exponent = <0>;
+    trigger-period-ms = <10>;
+    delay-ms = <0>;
+};
 
 //&kp LC(RG(LEFT))        &kp LG(RC(RIGHT))
 
