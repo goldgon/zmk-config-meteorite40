@@ -164,11 +164,8 @@
         win_default_layer {
             display-name = "BASE";
             bindings = <
- &kp ESCAPE          &lt 5 Q        &kp E      &kp U         &kp P                                    &kp D        &lt 7 T         &lt 6 R       &lt 5 W       &mkp MB1
-
+&kp ESCAPE          &lt 5 Q        &kp E      &kp U         &kp P                                    &kp D        &lt 7 T         &lt 6 R       &lt 5 W       &mkp MB1
 &mt LSHIFT TAB      &lt 3 O        &lt 2 A      &lt 1 I         &mt LCTRL F                             &mt RCTRL H  &lt 1 Y         &lt 2 K       &lt 3 S       &mt LEFT_SHIFT B
-
-
 &lt 4 MINUS    &mt LGUI X   &mt LALT C &mt LSHIFT V  &mt LCTRL L       &kp LC(RG(LEFT))        &kp LG(RC(RIGHT))    &mt RCTRL N        &mt RSHIFT M  &mt RALT G  &mt RGUI J  &lt 4 Z
                                    &kp LG(PSCRN)     &kp SPACE  &mt LSHIFT SPACE  &lt 1 SPACE  &lt 2 ENTER  &lt 2 BSPC  &lt 3 DEL  &kp RALT
             >;
@@ -177,9 +174,10 @@
         layer_1 {
             display-name = "SYMBOLS";
             bindings = <
-                &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT                       &none      &kp LPAR   &kp RPAR   &kp LBKT   &kp RBKT
-                &kp CARET  &kp AMPS  &kp STAR  &kp BSLH  &kp PIPE                        &kp SEMI   &kp COLON  &kp SQT    &kp DQT    &kp EQUAL
-                &none      &none     &none     &none     &none      &mkp MB4  &mkp MB5   &kp GRAVE  &kp TILDE  &kp LBRC   &kp RBRC   &kp PLUS
+&kp 0x38     &none      &kp UP     &none       &none                                 &kp TAB          &kp UP          &kp N8        &kp N9         &mkp MB2
+   &kp JP_SEMI  &kp LEFT   &kp GRAVE  &kp GRAVE   &kp MINUS                             &kp BACKSPACE  &kp SPACE       &kp TAB       &kp ENTER      &kp COMMA 
+
+ &kp JP_COLON &none      &none      &none       &none       &mkp MB4  &mkp MB5   &kp DELETE     &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD
                                      &trans     &trans    &trans    &trans    &trans     &kp DEL    &trans     &trans
             >;
         };
