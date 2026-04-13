@@ -12,6 +12,22 @@
 #include <dt-bindings/zmk/meteorite_custom_keys.h>
 #include <dt-bindings/zmk/meteorite_bt_os.h>
 
+#include "keycode_japanese.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 &mt { 
     flavor = "tap-preferred"; // change hold to tap
     tapping-term-ms = <200>;
