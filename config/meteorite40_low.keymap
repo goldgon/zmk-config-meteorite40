@@ -47,34 +47,7 @@
 
 
 / {
-    behaviors {
-        mck_mt: mck_mt {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <150>;
-            bindings = <&mck>, <&kp>;
-            display-name = "meteorite OS-Switch-mod-tap";
-        };
 
-        mck_mt_st: mck_mt_st {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <150>;
-            bindings = <&mck>, <&alt_cmd_tab>;
-            display-name = "meteorite OS-Switch-mod-tap (smart toggle)";
-        };
-
-        alt_cmd_tab: alt_cmd_tab {
-            compatible = "zmk,behavior-smart-toggle";
-            #binding-cells = <0>;
-            display-name = "meteorite Smart toggle (Alt/Cmd+Tab)";
-            bindings = <&mck M_OS_ALT_CMD>, <&kp TAB>;
-            position-bindings = <12 13>; /* D, F */
-            position-binding-behaviors = <&kp LS(TAB)>, <&kp TAB>;
-        };
-    };
 
     combos {
         compatible = "zmk,combos";
