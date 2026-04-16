@@ -42,9 +42,6 @@
     quick-tap-ms = <150>; 
 };
 
-
-
-
 &zip_mouse_gesture {
     stroke-size = <200>; // default: 200
     enable-eager-mode;
@@ -74,9 +71,6 @@
     compatible = "zmk,input-listener";
     input-processors = <&zip_mouse_gesture>;
 };
-
-
-
 
     // 複数キーの同時押しに特別の入力を設定できる
     // キー番号早見表：
@@ -310,39 +304,3 @@
 
     };
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
