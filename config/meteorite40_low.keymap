@@ -42,35 +42,35 @@
     quick-tap-ms = <150>; 
 };
 
-&zip_mouse_gesture {
-    stroke-size = <200>; // default: 200
-    enable-eager-mode;
+//&zip_mouse_gesture {
+//    stroke-size = <200>; // default: 200
+//    enable-eager-mode;
+//
+//    right_space {
+//        pattern = <GESTURE_RIGHT>;
+//        bindings = <&kp A>;
+//    };
+//
+//    left_space {
+//        pattern = <GESTURE_LEFT>;
+//        bindings = <&kp A>;
+//    };
+//
+//    mission_ctrl {
+//        pattern = <GESTURE_UP>;
+//        bindings = <&kp A>;
+//    };
+//
+//    expose {
+//        pattern = <GESTURE_DOWN>;
+//        bindings = <&kp A>;
+//    };
+//};
 
-    right_space {
-        pattern = <GESTURE_RIGHT>;
-        bindings = <&kp A>;
-    };
-
-    left_space {
-        pattern = <GESTURE_LEFT>;
-        bindings = <&kp A>;
-    };
-
-    mission_ctrl {
-        pattern = <GESTURE_UP>;
-        bindings = <&kp A>;
-    };
-
-    expose {
-        pattern = <GESTURE_DOWN>;
-        bindings = <&kp A>;
-    };
-};
-
-&trackball_listener {
-    compatible = "zmk,input-listener";
-    input-processors = <&zip_mouse_gesture>;
-};
+//&trackball_listener {
+//    compatible = "zmk,input-listener";
+//    input-processors = <&zip_mouse_gesture>;
+//};
 
     // 複数キーの同時押しに特別の入力を設定できる
     // キー番号早見表：
