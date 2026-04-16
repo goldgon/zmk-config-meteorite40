@@ -48,22 +48,22 @@
 
     right_space {
         pattern = <GESTURE_RIGHT>;
-        bindings = <&kp RIGHT_SPACE>;
+        bindings = <&kp A>;
     };
 
     left_space {
         pattern = <GESTURE_LEFT>;
-        bindings = <&kp LEFT_SPACE>;
+        bindings = <&kp A>;
     };
 
     mission_ctrl {
         pattern = <GESTURE_UP>;
-        bindings = <&kp MISSION_CTRL>;
+        bindings = <&kp A>;
     };
 
     expose {
         pattern = <GESTURE_DOWN>;
-        bindings = <&kp EXPOSE>;
+        bindings = <&kp A>;
     };
 };
 
