@@ -42,30 +42,30 @@
     quick-tap-ms = <150>; 
 };
 
-//&zip_mouse_gesture {
-//    stroke-size = <200>; // default: 200
-//    enable-eager-mode;
-//
-//    right_space {
-//        pattern = <GESTURE_RIGHT>;
-//        bindings = <&kp A>;
-//    };
-//
-//    left_space {
-//        pattern = <GESTURE_LEFT>;
-//        bindings = <&kp A>;
-//    };
-//
-//    mission_ctrl {
-//        pattern = <GESTURE_UP>;
-//        bindings = <&kp A>;
-//    };
-//
-//    expose {
-//        pattern = <GESTURE_DOWN>;
-//        bindings = <&kp A>;
-//    };
-//};
+&zip_mouse_gesture {
+    stroke-size = <200>; // default: 200
+    enable-eager-mode;
+
+    right_space {
+        pattern = <GESTURE_RIGHT>;
+        bindings = <&kp A>;
+    };
+
+    left_space {
+        pattern = <GESTURE_LEFT>;
+        bindings = <&kp A>;
+    };
+
+    mission_ctrl {
+        pattern = <GESTURE_UP>;
+        bindings = <&kp A>;
+    };
+
+    expose {
+        pattern = <GESTURE_DOWN>;
+        bindings = <&kp A>;
+    };
+};
 
 //&trackball_listener {
 //    compatible = "zmk,input-listener";
