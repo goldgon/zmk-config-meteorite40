@@ -43,7 +43,7 @@
 };
 
 &zip_mouse_gesture {
-    stroke-size = <10>; // default: 200
+    stroke-size = <5>; // default: 200
     enable-eager-mode;
 	idle-timeout-ms = <0>;
 	gesture-cooldown-ms = <0>;
@@ -92,7 +92,7 @@
         combo_mouse_gester {
             bindings = <&mouse_gesture>;
             key-positions = <16 18>;
-            timeout-ms = <50>;
+            timeout-ms = <200>;
         };
 
         line_home {
