@@ -43,8 +43,9 @@
 };
 
 &zip_mouse_gesture {
-    stroke-size = <200>; // default: 200
+    stroke-size = <100>; // default: 200
     enable-eager-mode;
+	idle-timeout-ms = <0>;
 
     right_space {
         pattern = <GESTURE_RIGHT>;
