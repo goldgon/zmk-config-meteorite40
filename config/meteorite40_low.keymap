@@ -50,12 +50,12 @@
 
     right_space {
         pattern = <GESTURE_RIGHT>;
-        bindings = <&kp A>;
+        bindings = <&kp RIGHT>;
     };
 
     left_space {
         pattern = <GESTURE_LEFT>;
-        bindings = <&kp A>;
+        bindings = <&kp LEFT>;
     };
 
     mission_ctrl {
@@ -91,7 +91,7 @@
 
         combo_mouse_gester {
             bindings = <&mouse_gesture>;
-            key-positions = <1 2>;
+            key-positions = <16 18>;
             timeout-ms = <50>;
         };
 
@@ -107,11 +107,11 @@
             layers = <2>;
         };
 
-        doc_home {
-            bindings = <&mosk LC(HOME) LG(UP)>;
-            key-positions = <16 18>; /* J + L (on layer 2) */
-            layers = <2>;
-        };
+//        doc_home {
+//            bindings = <&mosk LC(HOME) LG(UP)>;
+//            key-positions = <16 18>; /* J + L (on layer 2) */
+//            layers = <2>;
+//        };
 
         doc_end {
             bindings = <&mosk LC(END) LG(DOWN)>;
