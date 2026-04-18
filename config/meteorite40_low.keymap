@@ -45,8 +45,8 @@
 &zip_mouse_gesture {
     stroke-size = <5>; // default: 200
     enable-eager-mode;
-	idle-timeout-ms = <0>;
-	gesture-cooldown-ms = <0>;
+	idle-timeout-ms = <10>;
+	gesture-cooldown-ms = <10>;
 
     right_space {
         pattern = <GESTURE_RIGHT>;
@@ -89,11 +89,11 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_mouse_gester {
-            bindings = <&mouse_gesture>;
-            key-positions = <16 18>;
-            timeout-ms = <200>;
-        };
+//        combo_mouse_gester {
+//            bindings = <&mouse_gesture>;
+//            key-positions = <16 18>;
+//            timeout-ms = <200>;
+//        };
 
         line_home {
             bindings = <&mosk HOME LG(LEFT)>;
