@@ -43,7 +43,7 @@
 };
 
 &zip_mouse_gesture {
-    stroke-size = <5>; // default: 200
+    stroke-size = <1>; // default: 200
     enable-eager-mode;
 	idle-timeout-ms = <10>;
 	gesture-cooldown-ms = <10>;
