@@ -14,6 +14,7 @@
 
 #include "keycode_japanese.h"
 
+
 #include <mouse-gesture.dtsi>
 
 
