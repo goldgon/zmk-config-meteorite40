@@ -128,6 +128,13 @@
             timeout-ms = <200>;
         };
 
+       hankaku-2 {
+            bindings = <&kp GRAVE>;
+            key-positions = <14 15>;
+            layers = <0>;
+            timeout-ms = <300>;
+        };
+
         fopen {
             bindings = <&kp LG(N2)>;
             key-positions = <5 9>;
